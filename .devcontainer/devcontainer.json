@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "RAREDDOS=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$RAREDDOS/s.py",
+    "postStartCommand": "RAREDDOS=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$RAREDDOS/rare.py",
     "customizations": {
         "vscode": {
             "settings": {

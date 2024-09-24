@@ -1,0 +1,6 @@
+telebot
+requests
+pymongo
+aiogram
+aiohttp
+pyTelegramBotAPI
